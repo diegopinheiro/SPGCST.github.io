@@ -354,8 +354,8 @@ class ScheduleTimeline extends HTMLElement {
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">08:00 - 12:00</span>
-              <h4 class="timeline-title">Minicurso: Geoprocessamento com QGIS</h4>
+              <span class="time-badge">13:00 - 18:00</span>
+              <h4 class="timeline-title">Minicurso: Análise de dados espaciais com o QGIS</h4>
               <p class="timeline-desc">Atividade prática presencial ministrada com foco em aplicações espaciais para ciência ambiental e mapeamento de dados do sistema terrestre.</p>
               <div class="timeline-speaker">Instrutora: Jocilene Barros (Geoaplicada/INPE)</div>
             </div>
