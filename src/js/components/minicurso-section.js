@@ -17,7 +17,7 @@ class MinicursoSection extends HTMLElement {
           </div>
           <div class="rule-item">
             <span class="rule-icon">⚠️</span>
-            <span><strong>Vagas Limitadas:</strong> Cada participante poderá se inscrever em apenas 1 minicurso ou trabalho de campo, que ocorrerão simultaneamente na manhã do dia <strong>23 de Outubro de 2026</strong>.</span>
+            <span><strong>Vagas Limitadas:</strong> Apenas <strong>16 vagas disponíveis</strong>. O minicurso será realizado no dia <strong>23 de Outubro de 2026</strong>, das <strong>13:00 às 18:00</strong>.</span>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ class MinicursoSection extends HTMLElement {
           <div class="minicurso-card-header">
             <div class="minicurso-title-area">
               <span class="badge-tag">🎓 MINICURSO 1</span>
-              <h3>Geoprocessamento com QGIS</h3>
+              <h3>Análise de dados espaciais com o QGIS</h3>
             </div>
             <div class="minicurso-speaker-thumb">
               <img src="https://static.even3.com/pagina-evento/ImagemdoWhatsAppde2025-08-28s11.20.12_78096117.6d18e42582cb4d3cb380.jpg" alt="Jocilene Dantas Barros" class="speaker-img" />
