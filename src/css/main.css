@@ -1363,3 +1363,197 @@ section h2 {
   }
 }
 
+/* ==========================================================================
+   Notice Modal (Modal de Aviso de Prorrogação)
+   ========================================================================== */
+
+body.modal-open {
+  overflow: hidden !important;
+}
+
+body.modal-open .scroll-container {
+  overflow: hidden !important;
+}
+
+.notice-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 10, 21, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px;
+  opacity: 0;
+  animation: noticeModalFadeIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.notice-modal-backdrop.closing {
+  animation: noticeModalFadeOut 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.notice-modal-container {
+  position: relative;
+  max-width: 540px;
+  width: 100%;
+  max-height: 90vh;
+  background: var(--color-bg-dark);
+  border: 1px solid rgba(0, 255, 102, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(0, 255, 102, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: scale(0.92) translateY(20px);
+  animation: noticeModalSmoothOpen 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.05s forwards;
+  will-change: transform, opacity;
+}
+
+.notice-modal-backdrop.closing .notice-modal-container {
+  animation: noticeModalSmoothClose 0.28s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+.notice-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(1, 10, 21, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  opacity: 0;
+  animation: noticeModalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.notice-modal-close:hover {
+  background: var(--color-orange);
+  border-color: var(--color-orange);
+  color: #ffffff;
+  transform: scale(1.12) rotate(90deg);
+  box-shadow: 0 0 18px rgba(230, 92, 0, 0.7);
+}
+
+.notice-modal-content {
+  overflow-y: auto;
+  max-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.notice-modal-img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+  opacity: 0;
+  animation: noticeModalImgReveal 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.12s forwards;
+}
+
+/* Keyframes Animação Suave (UI/UX) */
+@keyframes noticeModalFadeIn {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+@keyframes noticeModalFadeOut {
+  from {
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  to {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+}
+
+@keyframes noticeModalSmoothOpen {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(24px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(0, 255, 102, 0.25);
+  }
+}
+
+@keyframes noticeModalSmoothClose {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.94) translateY(14px);
+  }
+}
+
+@keyframes noticeModalImgReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .notice-modal-backdrop {
+    padding: 12px;
+  }
+  
+  .notice-modal-container {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .notice-modal-close {
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+}
+
+

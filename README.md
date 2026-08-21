@@ -16,6 +16,7 @@ A plataforma foi desenvolvida para atender tanto à comunidade científica e aca
 ## 🔬 Destaques Científicos & Tecnológicos
 
 - **Engenharia de Performance com Web Components:** Arquitetura modular utilizando *Custom Elements* nativos da Web (Vanilla JS), garantindo encapsulamento, facilidade de manutenção e zero sobrecarga de frameworks pesados.
+- **Sistema de Modal de Avisos por Sessão (sessionStorage):** Web Component `<notice-modal>` para exibição de comunicados urgentes (como prorrogação de prazos de submissão), apresentando animação fluida em camadas (*layered spring reveal*), desfoque progressivo (`backdrop-filter`) e controle inteligente que exibe o aviso apenas 1 vez por sessão de navegação.
 - **Visualização 3D do Sistema Terrestre (Three.js):** Globo 3D interativo na página inicial utilizando renderização WebGL acelerada por GPU.
 - **Otimização de Recursos (`IntersectionObserver`):** O loop de renderização do Globo 3D é pausado automaticamente quando o elemento sai da área de visão do usuário (*viewport*), reduzindo a zero o consumo de CPU/GPU em outras seções do site.
 - **Arquitetura Multi-Page & Single-Page Híbrida (Vite MPA):** Suporte tanto para navegação fluida em Single Page Application (SPA) na Home quanto para URLs estáticas dedicadas (`pages/`), otimizando o SEO e o compartilhamento de links.
@@ -49,6 +50,7 @@ simposio-website/
 │       └── components/         # Web Components (Custom Elements)
 │           ├── site-header.js
 │           ├── site-footer.js
+│           ├── notice-modal.js # Modal de avisos por sessão (sessionStorage)
 │           ├── schedule-timeline.js
 │           ├── speakers-list.js
 │           ├── organizing-committee.js
