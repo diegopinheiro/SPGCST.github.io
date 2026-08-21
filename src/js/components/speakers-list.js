@@ -1,104 +1,91 @@
 class SpeakersList extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <div class="speakers-grid">
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">EB</div>
+      <div class="speakers-container">
+        <!-- PALESTRANTES CONFIRMADOS -->
+        <h3 style="text-align: center; margin-bottom: 25px; color: var(--color-green-light); font-family: var(--font-family-track); letter-spacing: 1px;">
+          ✓ Confirmados (Semana 21/08)
+        </h3>
+
+        <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RR</div>
+            </div>
+            <h3 class="speaker-name">Raquel Rolnik</h3>
+            <p class="speaker-title">FAU-USP</p>
+            <p class="speaker-bio">Arquiteta e urbanista, professora titular da FAU-USP e ex-relatora especial da ONU para o Direito à Moradia Adequada.</p>
           </div>
-          <h3 class="speaker-name">Evandro A. Branco</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: Fronteiras e Desafios da Transdisciplinaridade</p>
+
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">JG</div>
+            </div>
+            <h3 class="speaker-name">Julio Guató</h3>
+            <p class="speaker-title">Povo Indígena Guató</p>
+            <p class="speaker-bio">Pesquisador e liderança indígena, atuando na preservação dos saberes ancestrais, território e dinâmicas socioambientais do Pantanal.</p>
+          </div>
+
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RG</div>
+            </div>
+            <h3 class="speaker-name">Ricardo Galvão</h3>
+            <p class="speaker-title">CNPq / USP</p>
+            <p class="speaker-bio">Físico, professor titular do Instituto de Física da USP, atual Presidente do CNPq e ex-diretor do INPE.</p>
+          </div>
         </div>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">RM</div>
-          </div>
-          <h3 class="speaker-name">Rafael de A. Monteiro</h3>
-          <p class="speaker-title">INPE (Bolsista DTC-B)</p>
-          <p class="speaker-bio">Palestra: Entre ciência e sociedade: o papel do diálogo na construção da transdisciplinaridade</p>
-        </div>
+        <!-- PRÓXIMAS DIVULGAÇÕES -->
+        <h3 style="text-align: center; margin-bottom: 25px; color: var(--color-orange); font-family: var(--font-family-track); letter-spacing: 1px;">
+          ⏳ Divulgação nas Próximas Semanas
+        </h3>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">VM</div>
+        <div class="speakers-grid" style="margin-top: 0;">
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">JO</div>
+            </div>
+            <h3 class="speaker-name">Jean Ometto</h3>
+            <p class="speaker-title">INPE / CCST</p>
+            <p class="speaker-bio">Divulgação em breve</p>
           </div>
-          <h3 class="speaker-name">Viviana A. Muñoz</h3>
-          <p class="speaker-title">Cemaden</p>
-          <p class="speaker-bio">Palestra: Dimensão socioambiental na gestão de risco na América do Sul</p>
-        </div>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">AC</div>
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">AS</div>
+            </div>
+            <h3 class="speaker-name">António Mauro Saraiva</h3>
+            <p class="speaker-title">USP</p>
+            <p class="speaker-bio">Divulgação em breve</p>
           </div>
-          <h3 class="speaker-name">Ana Paula Cunha</h3>
-          <p class="speaker-title">Cemaden</p>
-          <p class="speaker-bio">Palestra: Secas no Semiárido: Ciência e Monitoramento</p>
-        </div>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">SC</div>
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">TK</div>
+            </div>
+            <h3 class="speaker-name">Thelma Krug</h3>
+            <p class="speaker-title">INPE / Ex-IPCC</p>
+            <p class="speaker-bio">Divulgação em breve</p>
           </div>
-          <h3 class="speaker-name">Sâmia R. G. Calheiro</h3>
-          <p class="speaker-title">UNIFESP</p>
-          <p class="speaker-bio">Palestra: Extremos Hidrometeorológicos no Brasil</p>
-        </div>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">JT</div>
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">AP</div>
+            </div>
+            <h3 class="speaker-name">Alexandre Pires</h3>
+            <p class="speaker-title">MMA</p>
+            <p class="speaker-bio">Divulgação em breve</p>
           </div>
-          <h3 class="speaker-name">Javier Tomasella</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: Clima, uso da terra e gestão da água em cenários de extremos</p>
-        </div>
 
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">LA</div>
+          <div class="speaker-card">
+            <div class="speaker-avatar-wrapper">
+              <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">MB</div>
+            </div>
+            <h3 class="speaker-name">Marcos Buckeridge</h3>
+            <p class="speaker-title">IB-USP</p>
+            <p class="speaker-bio">Divulgação em breve</p>
           </div>
-          <h3 class="speaker-name">Liana Anderson</h3>
-          <p class="speaker-title">Cemaden</p>
-          <p class="speaker-bio">Palestra: Queimadas na Amazônia e inovação tecnológica</p>
-        </div>
-
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">SK</div>
-          </div>
-          <h3 class="speaker-name">Silvana A. Kampel</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: Programa de Monitoramento de vegetação por satélite - BiomasBR</p>
-        </div>
-
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">MM</div>
-          </div>
-          <h3 class="speaker-name">Minella A. Martins</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: Modelagem e cenários no contexto do projeto Nexus</p>
-        </div>
-
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #3b98d3, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">PT</div>
-          </div>
-          <h3 class="speaker-name">Peter M. de Toledo</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: AdaptaBrasil e políticas públicas em biodiversidade</p>
-        </div>
-
-        <div class="speaker-card">
-          <div class="speaker-avatar-wrapper">
-            <div class="speaker-avatar" style="background: linear-gradient(135deg, #1e457e, #010a15); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-family: var(--font-family-track); width: 100%; height: 100%; border-radius: 50%;">LB</div>
-          </div>
-          <h3 class="speaker-name">Laura de S. Borma</h3>
-          <p class="speaker-title">INPE</p>
-          <p class="speaker-bio">Palestra: Florestas tropicais úmidas da Mata Atlântica: produtoras ou consumidoras de água?</p>
         </div>
       </div>
     `;
