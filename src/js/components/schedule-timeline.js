@@ -6,382 +6,643 @@ class ScheduleTimeline extends HTMLElement {
         <button class="tab-btn" data-tab="day2">Terça, 20/10 (Eixo 2)</button>
         <button class="tab-btn" data-tab="day3">Quarta, 21/10 (Eixo 3)</button>
         <button class="tab-btn" data-tab="day4">Quinta, 22/10 (Encerramento)</button>
-        <button class="tab-btn" data-tab="day5">Sexta, 23/10 (Campo)</button>
+        <button class="tab-btn" data-tab="day5">Sexta, 23/10 (Saída de Campo & Minicurso)</button>
       </div>
 
-      <!-- DIA 1 -->
+      <!-- DIA 1 (Segunda, 19/10) -->
       <div id="day1" class="tab-pane active">
-        <h3 style="text-align: center; margin-bottom: 30px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 1: Adaptação, Governança e Dinâmica Socioterritorial</h3>
+        <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 1 – Adaptação, Governança e Dinâmica Socioterritorial</h3>
+        <div class="eixo-desc-box">
+          <strong>Sobre o Eixo 1:</strong> Reúne trabalhos sobre respostas sociais e institucionais às mudanças climáticas, abrangendo políticas públicas de adaptação, impactos sobre populações vulneráveis e os efeitos sobre os sistemas de saúde diante de novos riscos ambientais.
+        </div>
+
+        <div class="mesa-header">
+          <span>🌅</span> MANHÃ | Mesa Lobo-Guará
+        </div>
+
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">08:00 - 09:00</span>
-              <h4 class="timeline-title">Credenciamento e Café da Manhã</h4>
-              <p class="timeline-desc">Credenciamento dos participantes e café da manhã de boas-vindas no hall do auditório.</p>
-            </div>
-          </div>
-          
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">09:00 - 09:45</span>
-              <h4 class="timeline-title">Abertura Oficial</h4>
-              <p class="timeline-desc">Apresentação da programação e boas-vindas com o Diretor do INPE (Antonio Miguel Vieira Monteiro), o Coordenador da PGCST (Andre Rodrigues), e as Representantes Discentes (Sara e Monique).</p>
+              <div class="timeline-badges">
+                <span class="time-badge">08:00 – 09:00</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Credenciamento + Café da manhã de boas-vindas</h4>
+              <p class="timeline-desc">Recepção, credenciamento dos participantes e café da manhã de acolhimento.</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">09:45 - 10:45</span>
-              <h4 class="timeline-title">Palestra 1: Fronteiras e Desafios da Transdisciplinaridade</h4>
-              <p class="timeline-desc">Discussão sobre os caminhos, as fronteiras e as metodologias de pesquisa transdisciplinar em ciência do sistema terrestre.</p>
-              <div class="timeline-speaker">Palestrante: Evandro Albiach Branco (INPE)</div>
+              <div class="timeline-badges">
+                <span class="time-badge">09:00 – 09:45</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Abertura, boas-vindas e apresentação da programação</h4>
+              <p class="timeline-desc">Sessão solene de abertura institucional do 13º Simpósio SPGCST:</p>
+              <ul class="timeline-list">
+                <li><strong>Antonio Miguel Vieira Monteiro</strong> – Diretor do INPE</li>
+                <li><strong>Andre Rodrigues</strong> – Coordenador do Curso (PPGCST)</li>
+                <li><strong>Amanda e Mariana</strong> – Representação Discente</li>
+              </ul>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">10:45 - 11:20</span>
-              <h4 class="timeline-title">Palestra 2: Entre ciência e sociedade: o papel do diálogo na construção da transdisciplinaridade</h4>
-              <p class="timeline-desc">Uma análise do diálogo e da ponte entre o conhecimento acadêmico e as demandas sociais na construção de pesquisas participativas.</p>
-              <div class="timeline-speaker">Palestrante: Rafael de Araujo Arosa Monteiro (Bolsista DTC-B - INPE)</div>
+              <div class="timeline-badges">
+                <span class="time-badge">09:45 – 10:45</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Sessão de Palestras</h4>
+              <ul class="timeline-list">
+                <li><strong>Palestrante Jean Ometto</strong></li>
+                <li><strong>Palestrante a confirmar</strong></li>
+              </ul>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">11:20 - 12:00</span>
-              <h4 class="timeline-title">Mesa Redonda: Transdisciplinaridade em Perspectiva</h4>
-              <p class="timeline-desc">Espaço de discussão, perguntas e debate integrativo com os palestrantes sobre relações dialógicas entre ciência e sociedade.</p>
+              <div class="timeline-badges">
+                <span class="time-badge">10:45 – 11:15</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e integração dos participantes.</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">13:45 - 14:30</span>
-              <h4 class="timeline-title">Palestra 3: Dimensão socioambiental na gestão de risco na América do Sul</h4>
-              <p class="timeline-desc">Análise de riscos sob a perspectiva de fatores sociais, climáticos e ambientais integrados no continente sul-americano.</p>
-              <div class="timeline-speaker">Palestrante: Viviana Aguilar Muñoz (Cemaden)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">14:30 - 15:30</span>
-              <h4 class="timeline-title">Apresentações Orais de Alunos & Discussão</h4>
-              <p class="timeline-desc">Apresentações orais de trabalhos de alunos do PGCST, seguidas de mesa de discussão e dúvidas.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">15:30 - 17:00</span>
-              <h4 class="timeline-title">Coffee Break & Apresentação de Banners</h4>
-              <p class="timeline-desc">Apresentação dos pôsteres de pesquisa no hall do auditório e intervalo de confraternização dos participantes.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">17:00 - 18:30</span>
-              <h4 class="timeline-title">Oficina / Dinâmica: AdaptaBrasil MCTI</h4>
-              <p class="timeline-desc">Atividade prática interativa para conhecer e aplicar a plataforma de modelagem e análise de adaptação às mudanças climáticas.</p>
-              <div class="timeline-speaker">Facilitador: Francinelli de Angel</div>
+              <div class="timeline-badges">
+                <span class="time-badge">11:30 – 12:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Mesa Redonda – Discussão e Dúvidas</h4>
+              <p class="timeline-desc">Espaço de debate, perguntas e integração com os participantes da mesa da manhã.</p>
             </div>
           </div>
         </div>
+
+        <div class="mesa-header">
+          <span>☀️</span> TARDE | Mesa Tucano
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">13:30 – 14:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Myhanna Lahsen</h4>
+              <p class="timeline-desc">Apresentação temática e reflexões socioambientais com Myhanna Lahsen.</p>
+              <div class="timeline-speaker">Palestrante: Myhanna Lahsen</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:10 – 14:50</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Raquel Rolnik</h4>
+              <p class="timeline-desc">Discussão sobre planejamento urbano, vulnerabilidades e <strong>cidades resilientes</strong> frente às mudanças climáticas.</p>
+              <div class="timeline-speaker">Palestrante: Raquel Rolnik (Cidades Resilientes)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:50 – 15:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Discussão e Dúvidas</h4>
+              <p class="timeline-desc">Sessão de perguntas do público e debate com as palestrantes.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:10 – 15:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e networking.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:30 – 17:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
+              <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
-      <!-- DIA 2 -->
+      <!-- DIA 2 (Terça, 20/10) -->
       <div id="day2" class="tab-pane">
-        <h3 style="text-align: center; margin-bottom: 30px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 2: Dinâmicas Biofísicas e Ecológicas do Sistema Terrestre e seus Impactos</h3>
+        <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 2 – Dinâmicas Biofísicas e Ecológicas do Sistema Terrestre e seus Impactos</h3>
+        <div class="eixo-desc-box">
+          <strong>Sobre o Eixo 2:</strong> Aborda os processos naturais e ecológicos do sistema terrestre, com ênfase nos impactos das mudanças climáticas sobre ecossistemas e biodiversidade, e nas estratégias de mitigação relacionadas ao uso da terra e aos ciclos do carbono.
+        </div>
+
+        <div class="mesa-header">
+          <span>🌅</span> MANHÃ | Mesa Gato do Mato
+        </div>
+
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">08:30 - 09:15</span>
-              <h4 class="timeline-title">Palestra 4: Secas no Semiárido: Ciência e Monitoramento</h4>
-              <p class="timeline-desc">Como a ciência monitora e quantifica a seca no semiárido brasileiro e quais são as principais descobertas recentes sobre seus impactos biocríticos.</p>
-              <div class="timeline-speaker">Palestrante: Ana Paula Cunha (Cemaden)</div>
+              <div class="timeline-badges">
+                <span class="time-badge">08:00 – 09:00</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Credenciamento</h4>
+              <p class="timeline-desc">Recepção e credenciamento dos congressistas.</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">09:15 - 10:00</span>
-              <h4 class="timeline-title">Apresentação Oral de Trabalhos</h4>
-              <p class="timeline-desc">Apresentações de pesquisas científicas dos discentes da pós-graduação.</p>
+              <div class="timeline-badges">
+                <span class="time-badge">09:00 – 10:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Julio Guató</h4>
+              <p class="timeline-desc">Palestra e reflexões científicas no contexto das dinâmicas biofísicas e ecológicas.</p>
+              <div class="timeline-speaker">Palestrante: Julio Guató</div>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">10:00 - 10:30</span>
+              <div class="timeline-badges">
+                <span class="time-badge">10:00 – 10:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e integração.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">10:30 – 11:15</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Alexandre Pires (MMA)</h4>
+              <p class="timeline-desc">Políticas ambientais, mitigação e visão do Ministério do Meio Ambiente e Mudança do Clima.</p>
+              <div class="timeline-speaker">Palestrante: Alexandre Pires (MMA)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">11:15 – 11:30</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Apresentação do Patrocinador</h4>
+              <p class="timeline-desc">Espaço institucional dos parceiros e apoiadores do simpósio.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">11:30 – 12:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
               <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Espaço reservado para perguntas do público aos apresentadores.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">10:30 - 11:00</span>
-              <h4 class="timeline-title">Coffee Break & Banners</h4>
-              <p class="timeline-desc">Sessão de pôsteres e debates diretos com pesquisadores.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">11:00 - 11:45</span>
-              <h4 class="timeline-title">Palestra 5: Extremos Hidrometeorológicos no Brasil</h4>
-              <p class="timeline-desc">Foco na análise, recorrência e severidade dos extremos hidrometeorológicos em todo o território nacional e as vulnerabilidades dos biomas.</p>
-              <div class="timeline-speaker">Palestrante: Sâmia Regina Garcia Calheiro (UNIFESP)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">11:45 - 12:00</span>
-              <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Debates sobre extremos hidrológicos com a palestrante.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">13:45 - 14:30</span>
-              <h4 class="timeline-title">Palestra 6: Clima, uso da terra e gestão da água em cenários de extremos</h4>
-              <p class="timeline-desc">Aborda a complexa relação entre o clima, a cobertura da terra, as transformações no uso do solo e seus efeitos no planejamento dos recursos hídricos.</p>
-              <div class="timeline-speaker">Palestrante: Javier Tomasella (INPE)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">14:30 - 14:45</span>
-              <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Rodada de perguntas direcionadas ao uso da terra e recursos hídricos.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">14:45 - 15:30</span>
-              <h4 class="timeline-title">Apresentação Oral de Trabalhos</h4>
-              <p class="timeline-desc">Sessão de trabalhos acadêmicos de discentes do PGCST.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">15:30 - 16:00</span>
-              <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Perguntas e respostas sobre as apresentações orais da tarde.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">16:00 - 17:00</span>
-              <h4 class="timeline-title">Coffee Break & Banners</h4>
-              <p class="timeline-desc">Apresentação de posters e rede de contatos.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">17:00 - 18:30</span>
-              <h4 class="timeline-title">Oficina / Dinâmica: Cemaden Educação</h4>
-              <p class="timeline-desc">Oficina voltada a práticas educativas e de conscientização para redução de desastres socioambientais nas escolas.</p>
-              <div class="timeline-speaker">Facilitador: Felipe Santos</div>
+              <p class="timeline-desc">Debate e perguntas abertas ao público com os palestrantes da manhã.</p>
             </div>
           </div>
         </div>
+
+        <div class="mesa-header">
+          <span>☀️</span> TARDE | Mesa Boto cor de rosa
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">13:30 – 14:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Rita de Cássia Silva von Randow</h4>
+              <p class="timeline-desc">Apresentação institucional e acolhimento com <strong>boas-vindas aos novos membros do CST</strong>.</p>
+              <div class="timeline-speaker">Palestrante: Rita de Cássia Silva von Randow (CST/INPE)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:10 – 14:50</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: António Mauro Saraiva (USP)</h4>
+              <p class="timeline-desc">Apresentação sobre ações antrópicas, conexões ecológicas e <strong>o conceito e o movimento de Saúde Planetária</strong>.</p>
+              <div class="timeline-speaker">Palestrante: António Mauro Saraiva (USP)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:50 – 15:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Discussão e Dúvidas</h4>
+              <p class="timeline-desc">Espaço de perguntas e respostas com a plenária.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:10 – 15:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e troca de experiências.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:30 – 17:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Oficina: Gaia em Jogo</h4>
+              <p class="timeline-desc">Dinâmica vivencial de tomada de decisão, governança e modelagem de sustentabilidade planetária em formato de jogo cooperativo.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
-      <!-- DIA 3 -->
+      <!-- DIA 3 (Quarta, 21/10) -->
       <div id="day3" class="tab-pane">
-        <h3 style="text-align: center; margin-bottom: 30px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 3: Modelagem, Inovação e Monitoramento do Sistema Terrestre</h3>
+        <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 3 – Modelagem, Inovação e Monitoramento do Sistema Terrestre</h3>
+        <div class="eixo-desc-box">
+          <strong>Sobre o Eixo 3:</strong> Congrega contribuições sobre novas tecnologias e metodologias para simular e monitorar o sistema terrestre, incluindo modelagem climática, sensoriamento remoto e uso de inteligência artificial aplicada ao monitoramento ambiental.
+        </div>
+
+        <div class="mesa-header">
+          <span>🌅</span> MANHÃ | Mesa Onça Pintada
+        </div>
+
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">08:30 - 09:15</span>
-              <h4 class="timeline-title">Palestra 7: Queimadas na Amazônia e inovação tecnológica</h4>
-              <p class="timeline-desc">Uso de novas ferramentas computacionais e tecnologias espaciais para monitoramento, controle e estudos do fogo na região amazônica.</p>
-              <div class="timeline-speaker">Palestrante: Liana Anderson (Cemaden)</div>
+              <div class="timeline-badges">
+                <span class="time-badge">08:00 – 09:00</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Credenciamento</h4>
+              <p class="timeline-desc">Recepção dos participantes e confirmação de presença.</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">09:15 - 10:00</span>
-              <h4 class="timeline-title">Apresentação Oral de Trabalhos</h4>
-              <p class="timeline-desc">Apresentações acadêmicas dos discentes do PGCST.</p>
+              <div class="timeline-badges">
+                <span class="time-badge">09:00 – 10:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Ricardo Galvão</h4>
+              <p class="timeline-desc">Palestra magna abordando desafios da ciência, inovação tecnológica, integridade dos dados e monitoramento espacial.</p>
+              <div class="timeline-speaker">Palestrante: Ricardo Galvão</div>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">10:00 - 10:30</span>
+              <div class="timeline-badges">
+                <span class="time-badge">10:00 – 10:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e integração.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">10:30 – 11:15</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Thelma Krug</h4>
+              <p class="timeline-desc">Panorama global e avanços em <strong>ciências da Terra e mudanças climáticas</strong> com a renomada pesquisadora Thelma Krug.</p>
+              <div class="timeline-speaker">Palestrante: Thelma Krug (Ciências da Terra e Mudanças Climáticas)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">11:15 – 11:30</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Apresentação do Patrocinador</h4>
+              <p class="timeline-desc">Apresentação dos patrocinadores e parceiros institucionais.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">11:30 – 12:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
               <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Debates abertos sobre as pesquisas discentes de modelagem.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">10:30 - 11:00</span>
-              <h4 class="timeline-title">Coffee Break & Banners</h4>
-              <p class="timeline-desc">Intervalo e sessão de banners científicos.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">11:00 - 11:45</span>
-              <h4 class="timeline-title">Palestra 8: Programa de Monitoramento de vegetação por satélite - BiomasBR</h4>
-              <p class="timeline-desc">Histórico, técnicas inovadoras de sensoriamento remoto e resultados do mapeamento sistemático da vegetação nativa brasileira.</p>
-              <div class="timeline-speaker">Palestrante: Silvana Amaral Kampel (INPE)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">11:45 - 12:00</span>
-              <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Debates sobre monitoramento por satélite dos biomas brasileiros.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">13:45 - 14:15</span>
-              <h4 class="timeline-title">Palestra 9: Modelagem e cenários no contexto do projeto Nexus</h4>
-              <p class="timeline-desc">Mapeamento e modelagem das relações água-alimento-energia em escala global e regional.</p>
-              <div class="timeline-speaker">Palestrante: Minella Alves Martins (INPE)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">14:15 - 14:45</span>
-              <h4 class="timeline-title">Palestra 10: AdaptaBrasil e políticas públicas em biodiversidade</h4>
-              <p class="timeline-desc">A utilização de dados científicos e plataformas nacionais na formulação de estratégias ecológicas do governo.</p>
-              <div class="timeline-speaker">Palestrante: Peter Mann de Toledo (INPE)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">14:45 - 15:30</span>
-              <h4 class="timeline-title">Mesa Redonda & Discussão</h4>
-              <p class="timeline-desc">Espaço interativo para discussão dos temas de modelagem com o público.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">15:30 - 16:00</span>
-              <h4 class="timeline-title">Coffee Break & Banners</h4>
-              <p class="timeline-desc">Intervalo e visualização final de banners.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">16:00 - 16:45</span>
-              <h4 class="timeline-title">Palestra 11: Florestas tropicais úmidas da Mata Atlântica: produtoras ou consumidoras de água?</h4>
-              <p class="timeline-desc">Análise de balanço hídrico e acoplamento floresta-atmosfera em bioma degradado e sob restauração.</p>
-              <div class="timeline-speaker">Palestrante: Laura de Simone Borma (INPE)</div>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">16:45 - 17:00</span>
-              <h4 class="timeline-title">Discussão e Dúvidas</h4>
-              <p class="timeline-desc">Painel final de debate do Eixo 3.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="time-badge">17:00 - 18:30</span>
-              <h4 class="timeline-title">Oficina / Dinâmica: Gaia em Jogo</h4>
-              <p class="timeline-desc">Dinâmica cooperativa focada nos cenários de retroalimentação global e governança socioecológica.</p>
-              <div class="timeline-speaker">Facilitadoras: Luciana Ferrer e Lis Accioli</div>
+              <p class="timeline-desc">Sessão de debate e perguntas com os conferencistas da manhã.</p>
             </div>
           </div>
         </div>
+
+        <div class="mesa-header">
+          <span>☀️</span> TARDE | Mesa Tamanduá-bandeira
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">13:30 – 14:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra CST: Regina Alvalá</h4>
+              <p class="timeline-desc">Pesquisa científica em monitoramento de desastres, alertas e a trajetória do CST.</p>
+              <div class="timeline-speaker">Palestrante CST: Regina Alvalá (Cemaden/INPE)</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:10 – 14:50</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Palestra: Marcos Buckeridge (USP)</h4>
+              <p class="timeline-desc">Conceitos biológicos, planejamento de infraestrutura verde e resiliência com foco no modelo das <strong>Cidades Esponja</strong>.</p>
+              <div class="timeline-speaker">Palestrante: Marcos Buckeridge (USP) – Cidades Esponja</div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:50 – 15:10</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Discussão e Dúvidas</h4>
+              <p class="timeline-desc">Mesa redonda e perguntas da audiência.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:10 – 15:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para café e conversas.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:30 – 17:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Oficina: MonitoraEA</h4>
+              <p class="timeline-desc">Oficina prática de monitoramento e integração de práticas em educação e análise socioambiental.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
-      <!-- DIA 4 -->
+      <!-- DIA 4 (Quinta, 22/10) -->
       <div id="day4" class="tab-pane">
-        <h3 style="text-align: center; margin-bottom: 30px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Encerramento e Minicursos</h3>
+        <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Papo sobre a Divisão e sobre o PPGCST (Encerramento)</h3>
+        <div class="eixo-desc-box">
+          <strong>Programação de Encerramento:</strong> Dia focado na reflexão sobre o curso, apresentações orais de pesquisas discentes, premiações de excelência, visitação técnica aos laboratórios de ponta do CST e encerramento comunitário com plantio de árvores.
+        </div>
+
+        <div class="mesa-header">
+          <span>🌅</span> MANHÃ – CARCARÁ
+        </div>
+
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">13:00 - 18:00</span>
-              <h4 class="timeline-title">Minicurso: Análise de dados espaciais com o QGIS</h4>
-              <p class="timeline-desc">Atividade prática presencial ministrada com foco em aplicações espaciais para ciência ambiental e mapeamento de dados do sistema terrestre.</p>
-              <div class="timeline-speaker">Instrutora: Jocilene Barros (Geoaplicada/INPE)</div>
+              <div class="timeline-badges">
+                <span class="time-badge">08:00 – 09:00</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Credenciamento</h4>
+              <p class="timeline-desc">Recepção e credenciamento dos participantes.</p>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">15:00 - 15:30</span>
-              <h4 class="timeline-title">Encerramento Formal e Happy Hour</h4>
-              <p class="timeline-desc">Happy hour de encerramento do evento.</p>
+              <div class="timeline-badges">
+                <span class="time-badge">09:00 – 09:30</span>
+                <span class="location-badge">📍 Hall do auditório</span>
+              </div>
+              <h4 class="timeline-title">Café da manhã com todos</h4>
+              <p class="timeline-desc">Café da manhã comunitário de confraternização e integração de alunos, pesquisadores e docentes.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">09:30 – 11:30</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Apresentação de Trabalhos</h4>
+              <p class="timeline-desc">Sessão oral de apresentações de trabalhos acadêmicos e pesquisas dos alunos do programa.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">11:30 – 12:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Premiações de Melhores Trabalhos / Palestra sobre Saúde Mental</h4>
+              <p class="timeline-desc">Cerimônia de premiação aos trabalhos de destaque do simpósio e momento reflexivo sobre saúde mental e bem-estar na pós-graduação.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mesa-header">
+          <span>☀️</span> TARDE – SARUÊ
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">14:00 – 15:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Visita aos Laboratórios do CST</h4>
+              <p class="timeline-desc">Visita técnica guiada às instalações e laboratórios do Centro de Ciência do Sistema Terrestre:</p>
+              <ul class="timeline-list">
+                <li><strong>LaGEE</strong> – Laboratório de Gases de Efeito Estufa</li>
+                <li><strong>LABREN</strong> – Laboratório de Modelagem e Estudos de Recursos Renováveis de Energia</li>
+                <li><strong>LADIS</strong> – Laboratório de Dinâmicas Socioambientais</li>
+                <li><strong>LAPBIO</strong> – Laboratório de Processos Biofísicos</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:00 – 15:30</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Roda de Discussão</h4>
+              <p class="timeline-desc">Roda de conversa integrativa sobre o PPGCST, perspectivas científicas e novos horizontes do curso.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">15:30 – 16:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Coffee Break</h4>
+              <p class="timeline-desc">Intervalo para lanche e bate-papo.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">16:00</span>
+                <span class="location-badge">📍 INPE</span>
+              </div>
+              <h4 class="timeline-title">Plantio de Árvores com os Alunos CST/INPE</h4>
+              <p class="timeline-desc">Ato ecológico e comunitário de plantio de árvores no campus do INPE, simbolizando o compromisso com o futuro do Sistema Terrestre.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- DIA 5 -->
+      <!-- DIA 5 (Sexta, 23/10) -->
       <div id="day5" class="tab-pane">
-        <h3 style="text-align: center; margin-bottom: 30px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Saída de Campo</h3>
+        <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Saída de Campo & Minicurso</h3>
+        <div class="eixo-desc-box">
+          <strong>Atividades Práticas e Extensão:</strong> Atividades presenciais de imersão de campo na Mata Atlântica e capacitação prática técnica especializada em análise de dados espaciais.
+        </div>
+
+        <div class="mesa-header">
+          <span>🌿</span> MANHÃ – Saída de Campo
+        </div>
+
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <span class="time-badge">07:00 - 12:00</span>
-              <h4 class="timeline-title">Saída de Campo: APTA Regional em Pindamonhangaba</h4>
-              <p class="timeline-desc">Visita técnica de campo focada em sistemas agroecológicos e práticas sustentáveis de uso do solo. Ônibus com saída pontual programada da portaria principal do INPE.</p>
+              <div class="timeline-badges">
+                <span class="time-badge">07:00 – 16:00</span>
+                <span class="location-badge">📍 Portaria Principal do INPE</span>
+              </div>
+              <h4 class="timeline-title">Saída de Campo: Parque Estadual Serra do Mar</h4>
+              <p class="timeline-desc"><strong>Destino:</strong> Núcleo Santa Virgínia &mdash; Trilha do Saltinho.</p>
+              <ul class="timeline-list">
+                <li><strong>Itinerário:</strong> Saída pontual às 07h00 da portaria principal do INPE, chegada prevista no parque às 09h00. Início da viagem de volta às 14h00, com chegada em São José dos Campos (SJC) prevista para as 16h00.</li>
+                <li><strong>Inscrição & Detalhes:</strong> Formulário interno para inscritos (envio das instruções por e-mail ou WhatsApp).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mesa-header">
+          <span>💻</span> TARDE – Minicurso Presencial
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
+                <span class="time-badge">13:00 – 18:00</span>
+                <span class="location-badge">📍 A ser definido</span>
+              </div>
+              <h4 class="timeline-title">Minicurso Geoaplicada (Duração: 5 horas)</h4>
+              <p class="timeline-desc">Atividade prática de capacitação em ferramentas e análise de dados geoespaciais voltada para a Ciência do Sistema Terrestre.</p>
+              <div class="timeline-speaker">Responsável: Jocilene Barros (Geoaplicada)</div>
             </div>
           </div>
         </div>
