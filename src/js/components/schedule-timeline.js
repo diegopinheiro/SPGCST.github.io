@@ -44,8 +44,8 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc">Sessão solene de abertura institucional do 13º Simpósio SPGCST:</p>
               <ul class="timeline-list">
                 <li><strong>Antonio Miguel Vieira Monteiro</strong> – Diretor do INPE</li>
-                <li><strong>Andre Rodrigues</strong> – Coordenador do Curso (PPGCST)</li>
-                <li><strong>Amanda e Mariana</strong> – Representação Discente</li>
+                <li><strong>André Gonçalves Rodrigues</strong> – Coordenador do Curso (PPGCST)</li>
+                <li><strong>Amanda Freitas Silva Garcia e Mariana Marques Wolf</strong> – Representação Discente</li>
               </ul>
             </div>
           </div>
@@ -57,11 +57,9 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">09:45 – 10:45</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Sessão de Palestras</h4>
-              <ul class="timeline-list">
-                <li><strong>Palestrante Jean Ometto</strong></li>
-                <li><strong>Palestrante a confirmar</strong></li>
-              </ul>
+              <h4 class="timeline-title">Palestra: Jean Ometto</h4>
+              <p class="timeline-desc">Apresentação e reflexões científicas no âmbito da dinâmica socioterritorial e ambiental.</p>
+              <div class="timeline-speaker">Palestrante: Jean Ometto</div>
             </div>
           </div>
 
