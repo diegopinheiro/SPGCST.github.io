@@ -467,6 +467,95 @@ section h2 {
   font-weight: 600;
 }
 
+.timeline-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.location-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #c4cdd8;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.timeline-item:hover .location-badge {
+  border-color: rgba(0, 255, 102, 0.2);
+  color: #fff;
+}
+
+.eixo-desc-box {
+  max-width: 900px;
+  margin: 0 auto 35px auto;
+  padding: 16px 22px;
+  background: rgba(59, 152, 211, 0.06);
+  border: 1px solid rgba(59, 152, 211, 0.2);
+  border-left: 4px solid var(--color-blue-menu);
+  border-radius: var(--radius-button);
+  font-size: 0.95rem;
+  color: #d1dbe5;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.mesa-header {
+  max-width: 900px;
+  margin: 30px auto 20px auto;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, rgba(0, 255, 102, 0.1) 0%, rgba(59, 152, 211, 0.03) 100%);
+  border-left: 3px solid var(--color-green-light);
+  border-radius: 4px;
+  font-family: 'Track', sans-serif;
+  font-size: 1.05rem;
+  color: var(--color-green-light);
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timeline-note {
+  max-width: 900px;
+  margin: 25px auto 0 auto;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.timeline-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.timeline-list li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 4px;
+  color: #c4cdd8;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.timeline-list li::before {
+  content: '•';
+  position: absolute;
+  left: 4px;
+  color: var(--color-green-light);
+}
+
 /* --- PALESTRANTES (SPEAKERS) --- */
 .speakers-grid {
   display: grid;
