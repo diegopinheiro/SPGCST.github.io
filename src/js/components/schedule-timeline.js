@@ -221,6 +221,7 @@ class ScheduleTimeline extends HTMLElement {
             </div>
           </div>
 
+        <!--
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -232,6 +233,7 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc">Espaço institucional dos parceiros e apoiadores do simpósio.</p>
             </div>
           </div>
+        -->
 
           <div class="timeline-item">
             <div class="timeline-marker"></div>
@@ -468,6 +470,7 @@ class ScheduleTimeline extends HTMLElement {
               </div>
               <h4 class="timeline-title">Oficina: MonitoraEA</h4>
               <p class="timeline-desc">Oficina prática de monitoramento e integração de práticas em educação e análise socioambiental.</p>
+              <div class="timeline-speaker">Responsável: Celly Santos</div>
             </div>
           </div>
         </div>
@@ -583,6 +586,7 @@ class ScheduleTimeline extends HTMLElement {
             </div>
           </div>
 
+       <!-- a confirmar
           <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -596,6 +600,7 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
       </div>
+    -->
 
       <!-- DIA 5 (Sexta, 23/10) -->
       <div id="day5" class="tab-pane">
@@ -620,7 +625,6 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc"><strong>Destino:</strong> Núcleo Santa Virgínia &mdash; Trilha do Saltinho.</p>
               <ul class="timeline-list">
                 <li><strong>Itinerário:</strong> Saída pontual às 07h00 da portaria principal do INPE, chegada prevista no parque às 09h00. Início da viagem de volta às 14h00, com chegada em São José dos Campos (SJC) prevista para as 16h00.</li>
-                <li><strong>Inscrição & Detalhes:</strong> Formulário interno para inscritos (envio das instruções por e-mail ou WhatsApp).</li>
               </ul>
             </div>
           </div>
