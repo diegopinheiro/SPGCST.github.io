@@ -156,7 +156,6 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 2 (Terça, 20/10) -->
@@ -314,7 +313,6 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 3 (Quarta, 21/10) -->
@@ -472,7 +470,6 @@ class ScheduleTimeline extends HTMLElement {
           </div>
         </div>
 
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
 
       <!-- DIA 4 (Quinta, 22/10) -->
