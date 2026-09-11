@@ -3,10 +3,7 @@ class SpeakersList extends HTMLElement {
     this.innerHTML = `
       <div class="speakers-container">
         <!-- PALESTRANTES CONFIRMADOS -->
-        <h3 style="text-align: center; margin-bottom: 25px; color: var(--color-green-light); font-family: var(--font-family-track); letter-spacing: 1px;">
-          ✓ Confirmados (Semana 21/08)
-        </h3>
-
+        
         <div class="speakers-grid" style="margin-top: 0; margin-bottom: 50px;">
           <div class="speaker-card">
             <div class="speaker-avatar-wrapper">
@@ -35,11 +32,6 @@ class SpeakersList extends HTMLElement {
             <p class="speaker-bio">Físico, professor titular do Instituto de Física da USP, atual Presidente do CNPq e ex-diretor do INPE.</p>
           </div>
         </div>
-
-        <!-- PRÓXIMAS DIVULGAÇÕES -->
-        <h3 style="text-align: center; margin-bottom: 25px; color: var(--color-orange); font-family: var(--font-family-track); letter-spacing: 1px;">
-          ⏳ Divulgação nas Próximas Semanas
-        </h3>
 
         <div class="speakers-grid" style="margin-top: 0;">
           <div class="speaker-card">
