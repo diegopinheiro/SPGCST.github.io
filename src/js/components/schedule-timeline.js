@@ -135,6 +135,19 @@ class ScheduleTimeline extends HTMLElement {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-badges">
+                <span class="time-badge">15:30 – 17:00</span>
+                <span class="location-badge">📍 Auditório</span>
+              </div>
+              <h4 class="timeline-title">Oficina: Gaia em Jogo</h4>
+              <p class="timeline-desc">Dinâmica vivencial de tomada de decisão, governança e modelagem de sustentabilidade planetária em formato de jogo cooperativo.</p>
+            </div>
+          </div>
+        </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badges">
                 <span class="time-badge">15:10 – 15:30</span>
                 <span class="location-badge">📍 Hall do auditório</span>
               </div>
@@ -142,19 +155,6 @@ class ScheduleTimeline extends HTMLElement {
               <p class="timeline-desc">Intervalo para café e networking.</p>
             </div>
           </div>
-
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-badges">
-                <span class="time-badge">15:30 – 17:00</span>
-                <span class="location-badge">📍 Auditório</span>
-              </div>
-              <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
-              <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
-            </div>
-          </div>
-        </div>
 
         <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
       </div>
@@ -308,15 +308,13 @@ class ScheduleTimeline extends HTMLElement {
                 <span class="time-badge">15:30 – 17:00</span>
                 <span class="location-badge">📍 Auditório</span>
               </div>
-              <h4 class="timeline-title">Oficina: Gaia em Jogo</h4>
-              <p class="timeline-desc">Dinâmica vivencial de tomada de decisão, governança e modelagem de sustentabilidade planetária em formato de jogo cooperativo.</p>
+              <h4 class="timeline-title">Oficina MCTI Adapta Brasil</h4>
+              <p class="timeline-desc">Atividade prática sobre a plataforma AdaptaBrasil do MCTI para modelagem, análise e suporte à formulação de políticas públicas de adaptação.</p>
+              <div class="timeline-speaker">Responsável: Francinelli de Angeli Francisco</div>
             </div>
           </div>
         </div>
-
-        <p class="timeline-note">* O mediador da mesa poderá ser um aluno ou um docente.</p>
-      </div>
-
+         
       <!-- DIA 3 (Quarta, 21/10) -->
       <div id="day3" class="tab-pane">
         <h3 style="text-align: center; margin-bottom: 15px; color: var(--color-blue-menu); font-family: var(--font-family-questrial);">Eixo 3 – Modelagem, Inovação e Monitoramento do Sistema Terrestre</h3>
